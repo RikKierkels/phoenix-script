@@ -86,5 +86,5 @@ Key.on('right', ['cmd'], setWindowLayout(0.5, 0, 0.5, 1));
 Key.on('up', ['cmd'], setWindowLayout(0, 0, 1, 1));
 Key.on('down', ['cmd'], centerWindow)
 
-Key.on('left', ['cmd', 'ctrl'], moveWindowToNextScreen);
-Key.on('right', ['cmd', 'ctrl'], moveWindowToPreviousScreen);
+Key.on('left', ['cmd', 'ctrl'], moveWindowToPreviousScreen);
+Key.on('right', ['cmd', 'ctrl'], moveWindowToNextScreen);
